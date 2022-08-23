@@ -1,0 +1,15 @@
+
+TABLES:
+
+airports                  crime_scene_reports       people
+atm_transactions          flights                   phone_calls
+bank_accounts             interviews
+courthouse_security_logs  passengers
+
+
+SUSPECTS
+
+
+
+INTERIEWS
+transcript

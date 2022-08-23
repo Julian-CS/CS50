@@ -1,0 +1,10 @@
+Check if correct files are submitted
+
+fopen card.raw 
+
+loop 
+fread 512 bytes (1block) at a time into a buffer array until a block starts wiht jpeg signature. 
+(First three is 0xff 0xd8 0xff)
+
+when loop finds new jpeg 
+take buffer array and write the bytes to a file call ###.jpeg

@@ -1,0 +1,12 @@
+Create list of dna substrings from first row in csv file
+Check max times every substring repeats in the dnaTXT sequence
+Check first substrings number of repeats with every rows/(person) first item row["Substring"]
+if match wiht any substring 
+    Success
+else print "No match"
+
+
+
+
+    for e in row: 
+        
